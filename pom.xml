@@ -9,6 +9,9 @@
 	<packaging>pom</packaging>
 
 	<properties>
+		<hazelcast.3.version>3.12.10</hazelcast.3.version>
+		<hazelcast.4.version>4.0.3</hazelcast.4.version>
+		<hazelcast.4.1.version>4.1-SNAPSHOT</hazelcast.4.1.version>
 		<java.version>11</java.version>
 		<jmh.version>1.26</jmh.version>
 		<lombok.version>1.18.16</lombok.version>
@@ -31,8 +34,9 @@
 
 	<modules>
 		<module>ggzEKHbFswAgAJ-shared</module>
-		<module>ggzEKHbFswAgAJ-hz3</module>
+		<module>ggzEKHbFswAgAJ-hz312</module>
 		<module>ggzEKHbFswAgAJ-hz4</module>
+		<module>ggzEKHbFswAgAJ-hz41</module>
 	</modules>
 	
 	<build>

@@ -7,7 +7,7 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        Options options = new OptionsBuilder().include(InstanceBenchmark.class.getSimpleName()).forks(1).build();
+        Options options = new OptionsBuilder().include(Hazelcast41Benchmark.class.getSimpleName()).forks(1).build();
         new Runner(options).run();
     }
 

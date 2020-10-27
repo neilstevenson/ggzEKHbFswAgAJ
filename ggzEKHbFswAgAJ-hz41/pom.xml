@@ -8,7 +8,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>ggzEKHbFswAgAJ-hz4</artifactId>
+	<artifactId>ggzEKHbFswAgAJ-hz41</artifactId>
 	
 	<dependencies>
 		<dependency>
@@ -19,7 +19,7 @@
 		<dependency>
 			<groupId>com.hazelcast</groupId>
 			<artifactId>hazelcast</artifactId>
-			<version>${hazelcast.4.version}</version>
+			<version>${hazelcast.4.1.version}</version>
 		</dependency>
 	</dependencies>
 

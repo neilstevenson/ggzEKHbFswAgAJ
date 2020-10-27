@@ -9,5 +9,15 @@
 	</parent>
 
 	<artifactId>ggzEKHbFswAgAJ-shared</artifactId>
+
+	<dependencies>
+		<!-- Scope is PROVIDED, so benchmark compiles, replace with HZ 3 or HZ 4 -->
+		<dependency>
+			<groupId>com.hazelcast</groupId>
+			<artifactId>hazelcast</artifactId>
+			<version>${hazelcast.3.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 	
 </project>

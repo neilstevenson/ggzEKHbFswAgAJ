@@ -8,12 +8,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>ggzEKHbFswAgAJ-hz3</artifactId>
+	<artifactId>ggzEKHbFswAgAJ-hz312</artifactId>
 	
-	<properties>
-		<hazelcast.version>3.12.10</hazelcast.version>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
@@ -23,7 +19,7 @@
 		<dependency>
 			<groupId>com.hazelcast</groupId>
 			<artifactId>hazelcast</artifactId>
-			<version>${hazelcast.version}</version>
+			<version>${hazelcast.3.version}</version>
 		</dependency>
 	</dependencies>
 
